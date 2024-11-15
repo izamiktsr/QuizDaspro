@@ -18,7 +18,7 @@ public class DaftarNamaMahasiswa {
             namaMahasiswa[i] = scanner.nextLine();
         }
         
-        // Output daftar nama mahasiswa
+        //r n Output daftaama mahasiswa
         System.out.println("\nDaftar Nama Mahasiswa:");
         for (int i = 0; i < jumlahMahasiswa; i++) {
             System.out.println((i + 1) + ". " + namaMahasiswa[i]);
